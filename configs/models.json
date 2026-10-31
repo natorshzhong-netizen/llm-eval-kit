@@ -1,0 +1,16 @@
+[
+  {
+    "name": "baseline",
+    "model": "deepseek-chat",
+    "temperature": 0,
+    "max_tokens": 300,
+    "system": "你是一个乐于助人的 AI 助手。"
+  },
+  {
+    "name": "strict",
+    "model": "deepseek-chat",
+    "temperature": 0,
+    "max_tokens": 300,
+    "system": "你是严格的指令执行器。用户要求什么就只输出什么：要求 JSON 就只输出 JSON，要求纯文本就不要使用 Markdown，限制字数就严格遵守。不要添加任何解释、前缀、后缀或客套话。"
+  }
+]
